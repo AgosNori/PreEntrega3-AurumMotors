@@ -1,0 +1,86 @@
+.contactoSection {
+  padding-top: 120px;
+  background: $gray-light;
+  font-family: "Montserrat", sans-serif;
+  color: $text-gray;
+}
+
+.tituloContacto {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: $gray-dark;
+  margin-bottom: 40px;
+}
+
+.contactoContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.formContacto {
+  padding: 35px;
+  background: $white;
+  border: 1px solid $gray-dark;
+  border-radius: $radius-lg;
+  box-shadow: 0 0 15px $gray-dark;
+  display: flex;
+  flex-direction: column;
+
+  .formGrupo {
+    margin-bottom: 18px;
+
+    label {
+      font-weight: 600;
+      color: $gray-dark;
+      margin-bottom: 5px;
+      display: block;
+    }
+
+    input,
+    textarea {
+      padding: 12px;
+      border-radius: $radius-sm;
+      border: 1px solid #c9c9c9;
+      background: #fafafa;
+      transition: $transition-fast;
+
+      &:focus {
+        border-color: $gray-dark;
+        box-shadow: 0 0 10px $gray-dark;
+        outline: none;
+      }
+    }
+  }
+}
+
+.btnEnviar {
+  padding: 14px;
+  border-radius: $radius-sm;
+  border: none;
+  background: linear-gradient(135deg, $gray-dark, #5d5d5d);
+  color: $white;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.25s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, $gray-dark, #81807f);
+  }
+}
+
+.imagenContacto {
+  border-radius: $radius-lg;
+
+  img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.65);
+    border-radius: $radius-lg;
+  }
+}

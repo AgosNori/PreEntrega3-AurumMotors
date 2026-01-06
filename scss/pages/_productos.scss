@@ -1,0 +1,14 @@
+
+.tituloProductos {
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.seccionProductos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 1rem;
+}
