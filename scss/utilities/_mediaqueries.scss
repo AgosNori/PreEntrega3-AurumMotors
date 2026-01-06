@@ -1,0 +1,17 @@
+@media (min-width: $tablet) {
+  .bannerContenido h1 {
+    font-size: 3rem;
+  }
+
+  .contactoContainer {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: $desktop) {
+  .bannerContenido {
+    align-items: flex-start;
+    text-align: left;
+    padding-left: 10%;
+  }
+}

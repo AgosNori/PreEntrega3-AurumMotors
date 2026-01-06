@@ -1,0 +1,16 @@
+.indexRedesSociales {
+  display: flex;
+  align-items: center;
+}
+
+.indexListaRedes {
+  @include flex-center;
+  gap: 15px;
+  list-style: none;
+}
+
+.iconoRS {
+  width: 24px;
+  height: 24px;
+  display: block;
+}

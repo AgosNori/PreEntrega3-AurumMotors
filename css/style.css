@@ -1,0 +1,219 @@
+.btnBanner {
+  border-radius: 30px;
+  font-weight: 600;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.indexRedesSociales {
+  display: flex;
+  align-items: center;
+}
+
+.indexListaRedes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  list-style: none;
+}
+
+.iconoRS {
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+.indexBanner {
+  position: relative;
+  height: 100vh;
+}
+.indexBanner img {
+  height: 100vh;
+  object-fit: cover;
+  display: block;
+  width: 100vw;
+}
+.indexBanner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.66);
+}
+
+.bannerContenido {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+  z-index: 2;
+  padding: 1.5rem;
+}
+.bannerContenido h1 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.bannerContenido p {
+  font-size: 1rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.btnBanner {
+  padding: 12px 26px;
+  border: 2px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 30px;
+  transition: 0.3s ease;
+}
+.btnBanner:hover {
+  background: #fff;
+  color: #000;
+}
+
+.indexAcercaDe {
+  background: #2a2a2a;
+  padding: 3rem 0;
+}
+
+.imagenAcercaDe {
+  position: relative;
+  max-height: 420px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.imagenAcercaDe img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.55;
+  display: block;
+}
+
+.tituloAcercaDe {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+.descripcionAcercaDe {
+  font-size: 1.1rem;
+  text-align: justify;
+  color: rgb(207.75, 207.75, 207.75);
+  line-height: 1.8;
+}
+.descripcionAcercaDe span {
+  font-weight: 700;
+}
+
+.tituMapa {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  margin: 3rem;
+}
+
+.mapa {
+  width: 100vw;
+}
+
+.btnBanner {
+  padding: 12px 26px;
+  border: 2px solid #fff;
+  color: #fff;
+  text-decoration: none;
+}
+.btnBanner:hover {
+  background: #fff;
+  color: #000;
+}
+
+.btnEnviar {
+  border: none;
+  padding: 14px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #2a2a2a, #5d5d5d);
+  color: #fff;
+}
+.btnEnviar:hover {
+  transform: translateY(-2px);
+}
+
+.tituCategoria {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  margin: 3rem;
+}
+
+.car-card {
+  position: relative;
+  height: 350px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease;
+}
+.car-card:hover {
+  transform: scale(1.02);
+}
+.car-card .car-title {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+}
+.car-card .btn-arrow {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  .bannerContenido h1 {
+    font-size: 3rem;
+  }
+  .contactoContainer {
+    flex-direction: row;
+  }
+}
+@media (min-width: 992px) {
+  .bannerContenido {
+    align-items: flex-start;
+    text-align: left;
+    padding-left: 10%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
